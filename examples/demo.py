@@ -35,14 +35,14 @@ def main():
     # Calculate a detailed stress score from assessment answers.
     print("📝 Example: calculate_stress_score()")
     result = calculate_stress_score(
-        answers=5
+        answers={}
     )
     print(f"   Result: {result}")
     print()
     # Return a CBT worksheet template by type.
     print("📝 Example: get_cbt_worksheet()")
     result = get_cbt_worksheet(
-        worksheet_type=3
+        worksheet_type="sample data"
     )
     print(f"   Result: {result}")
     print()
