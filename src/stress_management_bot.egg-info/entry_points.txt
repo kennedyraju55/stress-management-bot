@@ -1,0 +1,2 @@
+[console_scripts]
+stress-manager = stress_manager.cli:main
